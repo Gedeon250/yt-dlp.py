@@ -6,4 +6,3 @@ with sync_playwright() as p:
     page.goto("https://example.com")
     print(page.title())  # Should print "Example Domain"
     browser.close()
-
